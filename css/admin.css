@@ -1,0 +1,143 @@
+/* Auhtor: Maisie Fernandes 
+Theme: Food order website Admin;
+Version: 1.0; 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    /*border: 1px solid black;*/
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+/*css for buttons*/
+.btn-primary{
+    background-color: deepskyblue;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: dodgerblue;
+}
+
+.btn-secondary{
+    background-color: plum;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: purple;
+}
+
+.btn-danger{
+    background-color: lightcoral;
+    padding: 1%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: red;
+}
+
+.success{
+    color: limegreen;
+}
+.error{
+    color: crimson;
+}
+
+/*CSS for Menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{ 
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+.menu ul li a:hover{
+    color: blue;
+}
+/*CSS for main content*/
+.main-content{
+    /*margin: 1% 0;*/
+    background-color: aliceblue;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/*CSS for Footer*/
+.footer{
+    background-color: darkgray;
+    
+} 
+
+/*css for login*/
+.login{
+    width: 30%;
+    border: 1px solid grey;
+    margin: 5% auto;
+    padding: 2%;
+    
+}
+
+
+
+
+
+
+
+
+
+
